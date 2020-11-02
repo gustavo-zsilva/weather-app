@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+
+    background: rgb(107,143,160);
+    background: linear-gradient(0deg, rgba(107,143,160,1) 5%, rgba(70,69,111,1) 90%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container main {
+    margin: 10rem auto;
+
+    text-align: center;
+}
+
+.container main p {
+    margin-bottom: 2rem;
+    letter-spacing: .1rem;
+
+    color: #edeff1;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.096);
+}
+
+.container main .current-weather-description {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.container main .current-weather {
+    font-size: 12rem;
+    font-weight: 300;
+}
+
+.container main .city {
+    font-size: 1.2rem;
+}
