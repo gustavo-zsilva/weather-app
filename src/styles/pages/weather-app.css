@@ -37,3 +37,13 @@ body {
 .container main .city {
     font-size: 1.2rem;
 }
+
+.container main .current-time {
+    display: flex;
+    justify-content: center;
+    color: #edeff1;
+}
+
+.container main .current-time div::first-letter {
+    margin-left: .2rem;
+}
